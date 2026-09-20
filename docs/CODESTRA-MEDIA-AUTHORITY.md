@@ -1,6 +1,6 @@
 # Codestra Redis Exporter Authority
 
-Principal repository: `appolon1908-hue/Codestra-Redis-Exporter`
+Principal repository: `ingtrader21-spec/Codestra-Redis-Exporter`
 Canonical service host: `rdex.codestra.media`
 Canonical DNS target: `37.27.128.39`
 TTL: `600`
