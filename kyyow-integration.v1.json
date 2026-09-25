@@ -1,0 +1,42 @@
+{
+  "schema": "kyyow.platform-component.v1",
+  "repository": "appolon1908-hue/Codestra-Redis-Exporter",
+  "component": "redis-exporter",
+  "authority": "redis-metrics",
+  "exposure": "private",
+  "native_ports": [
+    9121
+  ],
+  "inputs": [
+    "redis:read-metrics"
+  ],
+  "outputs": [
+    "alloy:metrics"
+  ],
+  "controls": [
+    "Redis credentials arrive through OpenBao or mounted secret files",
+    "credentials never appear in target URLs, labels, logs, or Git",
+    "exporter account has no application data mutation permission",
+    "no public listener"
+  ],
+  "identity": {
+    "authority": "appolon1908-hue/Keycloak",
+    "workload_identity_required": true,
+    "anonymous_admin_access": false
+  },
+  "secrets": {
+    "authority": "appolon1908-hue/Codestra-OpenBao",
+    "secrets_in_git": false,
+    "environment_plaintext_secrets": false
+  },
+  "operations": {
+    "middleware_is_sole_odoo_writer": true,
+    "grafana_read_only": true,
+    "superset_read_only": true
+  },
+  "activation": {
+    "source_contract_complete": true,
+    "runtime_evidence_complete": false,
+    "production_activation_authorized": false
+  }
+}
