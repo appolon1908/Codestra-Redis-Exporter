@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "repository": "Codestra-Redis-Exporter",
+  "repository_url": "https://github.com/ingtrader21-spec/Codestra-Redis-Exporter.git",
+  "active_branch": "governance/single-active-lane-20260926",
+  "base_branch": "main",
+  "base_sha": "2775970cffcc3002a60c42738e7df86fd13b5280",
+  "upstream_ref": "origin/main",
+  "publication_branch": "governance/single-active-lane-20260926",
+  "development_workstation": "codestra-desktop",
+  "publication_workstation": "Appolon",
+  "allow_production_effects": false,
+  "allow_force_push": false,
+  "canonical_worktree": "/home/codestra/Worktrees/Monitoring-Active-20260926/Codestra-Redis-Exporter",
+  "updated_at": "2026-09-26T16:37:28.435712+00:00"
+}
