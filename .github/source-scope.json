@@ -1,0 +1,563 @@
+{
+  "schema_version": 1,
+  "repository": "appolon1908/Codestra-Redis-Exporter",
+  "scope": "frozen-vendor-documentation-additions-only",
+  "application_source_allowed": false,
+  "reviewed_base_sha": "88ce80c34e35985ee118933cac344b6526aeba4e",
+  "reviewed_base_tree": "ceee2092a10fe8bc01cca6540e381f101edcf71f",
+  "baseline_files": [
+    ".github/copilot-instructions.md",
+    ".github/workflows/monitoring-record.yml",
+    ".github/workflows/upstream-source-sync.yml",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "CODESTRA_HOSTNAME.json",
+    "CODESTRA_UPSTREAM.json",
+    "CODESTRA_UPSTREAM_LOCK.json",
+    "MONITORING-INTEGRATION.md",
+    "README.md",
+    "REPO_AUTHORITY.md",
+    "docs/ARCHITECTURE-CHARTS.md",
+    "docs/CODESTRA-MEDIA-AUTHORITY.md",
+    "monitoring-integration.v1.json",
+    "upstream/.github/ISSUE_TEMPLATE/bug_report.md",
+    "upstream/.github/ISSUE_TEMPLATE/config.yml",
+    "upstream/.github/ISSUE_TEMPLATE/question.md",
+    "upstream/.github/dependabot.yml",
+    "upstream/.github/renovate.json",
+    "upstream/.github/workflows/codeql-analysis.yml",
+    "upstream/.github/workflows/depsreview.yaml",
+    "upstream/.github/workflows/release.yml",
+    "upstream/.github/workflows/tests.yml",
+    "upstream/.github/workflows/update-readme.yml",
+    "upstream/.gitignore",
+    "upstream/.golangci.yaml",
+    "upstream/AGENTS.md",
+    "upstream/CLAUDE.md",
+    "upstream/Dockerfile",
+    "upstream/LICENSE",
+    "upstream/Makefile",
+    "upstream/README.md",
+    "upstream/contrib/collect_lists_length_growing.lua",
+    "upstream/contrib/grafana_prometheus_redis_dashboard.json",
+    "upstream/contrib/grafana_prometheus_redis_dashboard_exporter_version_0.3x.json",
+    "upstream/contrib/k8s-redis-and-exporter-deployment.yaml",
+    "upstream/contrib/manifest.yml",
+    "upstream/contrib/openshift-template.yaml",
+    "upstream/contrib/redis-mixin/.gitignore",
+    "upstream/contrib/redis-mixin/Makefile",
+    "upstream/contrib/redis-mixin/README.md",
+    "upstream/contrib/redis-mixin/alerts/redis.libsonnet",
+    "upstream/contrib/redis-mixin/config.libsonnet",
+    "upstream/contrib/redis-mixin/dashboards/redis-overview.json",
+    "upstream/contrib/redis-mixin/dashboards/redis.libsonnet",
+    "upstream/contrib/redis-mixin/mixin.libsonnet",
+    "upstream/contrib/redis-mixin/rules/redis.libsonnet",
+    "upstream/contrib/sample-pwd-file.json",
+    "upstream/contrib/sample-pwd-file.json-malformed",
+    "upstream/contrib/sample_collect_script.lua",
+    "upstream/contrib/tls/gen-test-certs.sh",
+    "upstream/docker-compose.yml",
+    "upstream/exporter/clients.go",
+    "upstream/exporter/clients_test.go",
+    "upstream/exporter/commandlog.go",
+    "upstream/exporter/commandlog_test.go",
+    "upstream/exporter/exporter.go",
+    "upstream/exporter/exporter_test.go",
+    "upstream/exporter/http.go",
+    "upstream/exporter/http_test.go",
+    "upstream/exporter/info.go",
+    "upstream/exporter/info_test.go",
+    "upstream/exporter/key_groups.go",
+    "upstream/exporter/key_groups_test.go",
+    "upstream/exporter/keys.go",
+    "upstream/exporter/keys_test.go",
+    "upstream/exporter/latency.go",
+    "upstream/exporter/latency_test.go",
+    "upstream/exporter/lua.go",
+    "upstream/exporter/lua_test.go",
+    "upstream/exporter/metrics.go",
+    "upstream/exporter/metrics_test.go",
+    "upstream/exporter/modules.go",
+    "upstream/exporter/modules_test.go",
+    "upstream/exporter/nodes.go",
+    "upstream/exporter/nodes_test.go",
+    "upstream/exporter/pwd_file.go",
+    "upstream/exporter/pwd_file_test.go",
+    "upstream/exporter/rdb.go",
+    "upstream/exporter/rdb_test.go",
+    "upstream/exporter/redis.go",
+    "upstream/exporter/redis_test.go",
+    "upstream/exporter/scripting_engines.go",
+    "upstream/exporter/scripting_engines_test.go",
+    "upstream/exporter/search_indexes.go",
+    "upstream/exporter/search_indexes_test.go",
+    "upstream/exporter/sentinels.go",
+    "upstream/exporter/sentinels_test.go",
+    "upstream/exporter/slowlog.go",
+    "upstream/exporter/slowlog_test.go",
+    "upstream/exporter/streams.go",
+    "upstream/exporter/streams_test.go",
+    "upstream/exporter/tile38.go",
+    "upstream/exporter/tile38_test.go",
+    "upstream/exporter/tls.go",
+    "upstream/exporter/tls_info.go",
+    "upstream/exporter/tls_test.go",
+    "upstream/exporter/valkey_info_test.go",
+    "upstream/go.mod",
+    "upstream/go.sum",
+    "upstream/main.go",
+    "upstream/main_test.go",
+    "upstream/package-github-binaries.sh"
+  ],
+  "frozen_entries": {
+    ".github/copilot-instructions.md": {
+      "mode": "100644",
+      "blob": "b377a31eb1f063ad7583864774218e579dbb9511"
+    },
+    ".github/workflows/monitoring-record.yml": {
+      "mode": "100644",
+      "blob": "f6fe0f2e259c4662d23523c7d085313f9b7b5b52"
+    },
+    ".github/workflows/upstream-source-sync.yml": {
+      "mode": "100644",
+      "blob": "ede17e60efaa7b7717c281d88985a59684e21625"
+    },
+    "AGENTS.md": {
+      "mode": "100644",
+      "blob": "f40b112ab45e0860b2d3266adda5f8ea74c0cdae"
+    },
+    "CLAUDE.md": {
+      "mode": "100644",
+      "blob": "b9e6478b26ddc3b6a355db913f326576b3485ac8"
+    },
+    "CODESTRA_HOSTNAME.json": {
+      "mode": "100644",
+      "blob": "ae9afbc2482b762c41ef616f6aec4b9d462e511e"
+    },
+    "CODESTRA_UPSTREAM.json": {
+      "mode": "100644",
+      "blob": "5f71b1f81b1840a5bf52fe33c66c120657828ae3"
+    },
+    "CODESTRA_UPSTREAM_LOCK.json": {
+      "mode": "100644",
+      "blob": "d7631492ccd0b0a1276bd399de8e667808f06408"
+    },
+    "MONITORING-INTEGRATION.md": {
+      "mode": "100644",
+      "blob": "68d1a70e3da067c1be077527ce33ce99c06ef26d"
+    },
+    "README.md": {
+      "mode": "100644",
+      "blob": "e2e1c3fe47b88e80bd9b54a6fe108d705f1c0397"
+    },
+    "REPO_AUTHORITY.md": {
+      "mode": "100644",
+      "blob": "bf925fcee774c0c76d183e9f138299b5cfe96041"
+    },
+    "docs/ARCHITECTURE-CHARTS.md": {
+      "mode": "100644",
+      "blob": "7fb461c50d02c5ac076bded25efb5e501e665db2"
+    },
+    "docs/CODESTRA-MEDIA-AUTHORITY.md": {
+      "mode": "100644",
+      "blob": "7c630c861ed6b73acd605f7a62608393a3c16fac"
+    },
+    "monitoring-integration.v1.json": {
+      "mode": "100644",
+      "blob": "8153eea3f2a4c850ec16e945992682fb0f9a6063"
+    },
+    "upstream/.github/ISSUE_TEMPLATE/bug_report.md": {
+      "mode": "100644",
+      "blob": "36059709b3211a1066eff973a9a336ff88f858d0"
+    },
+    "upstream/.github/ISSUE_TEMPLATE/config.yml": {
+      "mode": "100644",
+      "blob": "3ba13e0cec6cbbfd462e9ebf529dd2093148cd69"
+    },
+    "upstream/.github/ISSUE_TEMPLATE/question.md": {
+      "mode": "100644",
+      "blob": "5b3d8bbce52570b0163e7a9c3c2d8ae06be0bf2c"
+    },
+    "upstream/.github/dependabot.yml": {
+      "mode": "100644",
+      "blob": "c0b925d25333c8ac01df468a54f933fe60ea2deb"
+    },
+    "upstream/.github/renovate.json": {
+      "mode": "100644",
+      "blob": "08e149b4e77e2f7a2c71910070b8e2bfa4bca765"
+    },
+    "upstream/.github/workflows/codeql-analysis.yml": {
+      "mode": "100644",
+      "blob": "91a87e53df826cfa260920c57621d437ce2ca879"
+    },
+    "upstream/.github/workflows/depsreview.yaml": {
+      "mode": "100644",
+      "blob": "9f031465211ad27942857083c789c887175ef7e8"
+    },
+    "upstream/.github/workflows/release.yml": {
+      "mode": "100644",
+      "blob": "728ebf74dd59b6d14bc3ff39129b1fc43be133bf"
+    },
+    "upstream/.github/workflows/tests.yml": {
+      "mode": "100644",
+      "blob": "7c047ddd0f60cadbc683888907c0eb1ddd1ae720"
+    },
+    "upstream/.github/workflows/update-readme.yml": {
+      "mode": "100644",
+      "blob": "bbfcf3ddd91829c6e1feb9e71375862599ad75e2"
+    },
+    "upstream/.gitignore": {
+      "mode": "100644",
+      "blob": "6549ba694282daa4a21820b6e57be50fc0164f4f"
+    },
+    "upstream/.golangci.yaml": {
+      "mode": "100644",
+      "blob": "764c9ce9fb1684cec0556a7ed8faaf8ec6dd5987"
+    },
+    "upstream/AGENTS.md": {
+      "mode": "100644",
+      "blob": "28b1227ffaf7e55c0b4ef7986dc323783fdf83e8"
+    },
+    "upstream/CLAUDE.md": {
+      "mode": "120000",
+      "blob": "47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+    },
+    "upstream/Dockerfile": {
+      "mode": "100644",
+      "blob": "9c3efd4ca41a5d7871e1ec8b17388240cf46a3e8"
+    },
+    "upstream/LICENSE": {
+      "mode": "100644",
+      "blob": "e46222f35557197f1f45b732a694c3950fd1c52b"
+    },
+    "upstream/Makefile": {
+      "mode": "100644",
+      "blob": "4178eee7bde159ed0fe14ee774fae521dc627213"
+    },
+    "upstream/README.md": {
+      "mode": "100644",
+      "blob": "648c229f7bde5b107242a5943b67f7a5a14584ff"
+    },
+    "upstream/contrib/collect_lists_length_growing.lua": {
+      "mode": "100644",
+      "blob": "835d3b72eb03415fb41ff287daa9f036ff054e85"
+    },
+    "upstream/contrib/grafana_prometheus_redis_dashboard.json": {
+      "mode": "100644",
+      "blob": "8853f174b1d5762db4373f0792624bcf83f0b79e"
+    },
+    "upstream/contrib/grafana_prometheus_redis_dashboard_exporter_version_0.3x.json": {
+      "mode": "100644",
+      "blob": "6e916a92c39d5fe80f62314dfb57d0df4236c1fb"
+    },
+    "upstream/contrib/k8s-redis-and-exporter-deployment.yaml": {
+      "mode": "100644",
+      "blob": "87754a18ed61cdeab4991f2a7b7b47da54702b8c"
+    },
+    "upstream/contrib/manifest.yml": {
+      "mode": "100644",
+      "blob": "4dac5ac5faeb8e86e67afa2a0968f7c5e27bfb0a"
+    },
+    "upstream/contrib/openshift-template.yaml": {
+      "mode": "100644",
+      "blob": "9187b6cf74a9753fe9e197951b4011f34a1c5a41"
+    },
+    "upstream/contrib/redis-mixin/.gitignore": {
+      "mode": "100755",
+      "blob": "b95afc1c18a332967d4a26d911ef1be41d0cfa1d"
+    },
+    "upstream/contrib/redis-mixin/Makefile": {
+      "mode": "100755",
+      "blob": "9bf95aa23d6ce0732f4802712f1ed5eeacfd9368"
+    },
+    "upstream/contrib/redis-mixin/README.md": {
+      "mode": "100755",
+      "blob": "fd39c2c4ddfa4e0d212d086b6dbd82df1d0a6e03"
+    },
+    "upstream/contrib/redis-mixin/alerts/redis.libsonnet": {
+      "mode": "100755",
+      "blob": "8717c35bda520aa8bb427221d9ce477ce304272a"
+    },
+    "upstream/contrib/redis-mixin/config.libsonnet": {
+      "mode": "100644",
+      "blob": "9601565a9bc95c5628c56d42ba03ee6134f5029f"
+    },
+    "upstream/contrib/redis-mixin/dashboards/redis-overview.json": {
+      "mode": "100755",
+      "blob": "bac00b6ed259278bfcd91518603ced3ba793a956"
+    },
+    "upstream/contrib/redis-mixin/dashboards/redis.libsonnet": {
+      "mode": "100644",
+      "blob": "a45230b4bfdb341d348de0553c60943bc2c6227f"
+    },
+    "upstream/contrib/redis-mixin/mixin.libsonnet": {
+      "mode": "100755",
+      "blob": "bfbf9cfa6044a5f08ebd36256f77157217fb4b95"
+    },
+    "upstream/contrib/redis-mixin/rules/redis.libsonnet": {
+      "mode": "100755",
+      "blob": "00a44b66c3694e6f88327810fc5c3790e7694b79"
+    },
+    "upstream/contrib/sample-pwd-file.json": {
+      "mode": "100644",
+      "blob": "8c297152c085a8bc3c81da15acbe94ba4b3e8288"
+    },
+    "upstream/contrib/sample-pwd-file.json-malformed": {
+      "mode": "100644",
+      "blob": "36347c425fbbf74a10a646ad04b053190a20fa7a"
+    },
+    "upstream/contrib/sample_collect_script.lua": {
+      "mode": "100644",
+      "blob": "b925785fc88fc1edecf0e5ef0313600f183af814"
+    },
+    "upstream/contrib/tls/gen-test-certs.sh": {
+      "mode": "100755",
+      "blob": "4a2810a935d0546fc3e066d570b2345c6928d6c9"
+    },
+    "upstream/docker-compose.yml": {
+      "mode": "100644",
+      "blob": "2f9477e128a9a72603e927c03ccbcb6133fa9e55"
+    },
+    "upstream/exporter/clients.go": {
+      "mode": "100644",
+      "blob": "145f4cdbb764e97a60045198bef0056109464115"
+    },
+    "upstream/exporter/clients_test.go": {
+      "mode": "100644",
+      "blob": "228a0657836bc5413537241422d74698475ed43c"
+    },
+    "upstream/exporter/commandlog.go": {
+      "mode": "100644",
+      "blob": "4b74cbb761613b1df235fd1b640153080c654641"
+    },
+    "upstream/exporter/commandlog_test.go": {
+      "mode": "100644",
+      "blob": "665b59f00c28a845902a989aabef4711c6bbe50f"
+    },
+    "upstream/exporter/exporter.go": {
+      "mode": "100644",
+      "blob": "4733b0ecf803d8ca29a9bb4f509bf3086cf198dd"
+    },
+    "upstream/exporter/exporter_test.go": {
+      "mode": "100644",
+      "blob": "9990525f717bb93a468814a0371f9e18a5e028a9"
+    },
+    "upstream/exporter/http.go": {
+      "mode": "100644",
+      "blob": "4b6107c9f20578e0c94e56406299d4644f97a657"
+    },
+    "upstream/exporter/http_test.go": {
+      "mode": "100644",
+      "blob": "3ab64fa9773536455527a3333eb6ef8185c5da2c"
+    },
+    "upstream/exporter/info.go": {
+      "mode": "100644",
+      "blob": "cd86f05beaa7d9376da1d07918b51ceff5c2ff9e"
+    },
+    "upstream/exporter/info_test.go": {
+      "mode": "100644",
+      "blob": "12cbb210a4f298f270b7ef8201b5ccc71f78bf66"
+    },
+    "upstream/exporter/key_groups.go": {
+      "mode": "100644",
+      "blob": "e7e2c3e7bc3d893a4a9fd60f0516ede944f9eb32"
+    },
+    "upstream/exporter/key_groups_test.go": {
+      "mode": "100644",
+      "blob": "30c4c773a965801ee9f4ee10ddb95a86cc7a5c2d"
+    },
+    "upstream/exporter/keys.go": {
+      "mode": "100644",
+      "blob": "aa172dd9ebd15337ed9afdd7c76afda089ffd5ca"
+    },
+    "upstream/exporter/keys_test.go": {
+      "mode": "100644",
+      "blob": "f3b40bc3d0070483c4d4a1cb7e758744c065d371"
+    },
+    "upstream/exporter/latency.go": {
+      "mode": "100644",
+      "blob": "dee96f3b848a0bd81d76b8b11041266becdf3f2e"
+    },
+    "upstream/exporter/latency_test.go": {
+      "mode": "100644",
+      "blob": "24810a457c738382c24977f7cc1fe7c7ecdfefe2"
+    },
+    "upstream/exporter/lua.go": {
+      "mode": "100644",
+      "blob": "60b7cd5ebe60a559f9cf63b27297da51c3f20379"
+    },
+    "upstream/exporter/lua_test.go": {
+      "mode": "100644",
+      "blob": "e0c3ead61d0ccdcda236e49b6a42922b1dfb96c5"
+    },
+    "upstream/exporter/metrics.go": {
+      "mode": "100644",
+      "blob": "4d8409ef65b2153d9f7ab35fcd0e42aa0cb40017"
+    },
+    "upstream/exporter/metrics_test.go": {
+      "mode": "100644",
+      "blob": "430827c69fc8addeda66933f17a8b9c2a0dfc8da"
+    },
+    "upstream/exporter/modules.go": {
+      "mode": "100644",
+      "blob": "f6ec49d7b0ac5c7af3e9b3347a443b4dd99bf1f0"
+    },
+    "upstream/exporter/modules_test.go": {
+      "mode": "100644",
+      "blob": "445f13a703d68951eeb29c02f6c86b3c572cb3e0"
+    },
+    "upstream/exporter/nodes.go": {
+      "mode": "100644",
+      "blob": "a80e51cba8b7dbb6f2dea95dd6184f43c59dcbbd"
+    },
+    "upstream/exporter/nodes_test.go": {
+      "mode": "100644",
+      "blob": "beda3728fa1cd708b805a765c4eb203c4893eef9"
+    },
+    "upstream/exporter/pwd_file.go": {
+      "mode": "100644",
+      "blob": "dfeaf54faf482c7aa47ae198a064eecf402ab4bc"
+    },
+    "upstream/exporter/pwd_file_test.go": {
+      "mode": "100644",
+      "blob": "1ef815ac40f9aedb293871383f0bc73b026cce63"
+    },
+    "upstream/exporter/rdb.go": {
+      "mode": "100644",
+      "blob": "5129a5d1803b410a8eb5b6e4addf688ec75d42da"
+    },
+    "upstream/exporter/rdb_test.go": {
+      "mode": "100644",
+      "blob": "3a6704a2b5faaa8ef8600ea04e535bfc7844309c"
+    },
+    "upstream/exporter/redis.go": {
+      "mode": "100644",
+      "blob": "e3a2d1f12871d14d7b95a1d4c4906826efd64601"
+    },
+    "upstream/exporter/redis_test.go": {
+      "mode": "100644",
+      "blob": "e9897bd8c51b6536bf81f11c5c756c7c9f2a0a0b"
+    },
+    "upstream/exporter/scripting_engines.go": {
+      "mode": "100644",
+      "blob": "1a5989ebfd6955d431a7a626fc89e882508e36b5"
+    },
+    "upstream/exporter/scripting_engines_test.go": {
+      "mode": "100644",
+      "blob": "cbf19494ab77e74d2cf0497ef760a2a74c1025d7"
+    },
+    "upstream/exporter/search_indexes.go": {
+      "mode": "100644",
+      "blob": "3fa721a08eb8a8e9e4f68d0f83265214d9b4fd35"
+    },
+    "upstream/exporter/search_indexes_test.go": {
+      "mode": "100644",
+      "blob": "63dce980e63cfed044cffb123a608f42743a9f0b"
+    },
+    "upstream/exporter/sentinels.go": {
+      "mode": "100644",
+      "blob": "ff1dbf4900e10dd26d80438c57466d3be83629df"
+    },
+    "upstream/exporter/sentinels_test.go": {
+      "mode": "100644",
+      "blob": "3bf6477b6edf2a0e600c98c4cf9e92a2b8852bc1"
+    },
+    "upstream/exporter/slowlog.go": {
+      "mode": "100644",
+      "blob": "0a8d3fd373b7ba12eb865481d522c078695ed1a4"
+    },
+    "upstream/exporter/slowlog_test.go": {
+      "mode": "100644",
+      "blob": "111c59a0942a4e859261bfae60de6c6c4b190c86"
+    },
+    "upstream/exporter/streams.go": {
+      "mode": "100644",
+      "blob": "9ae667f047d126062174f204cf8c2b1e4efd4886"
+    },
+    "upstream/exporter/streams_test.go": {
+      "mode": "100644",
+      "blob": "89ddfffe139a10be462de756ceeb1b2dcc7fb2f4"
+    },
+    "upstream/exporter/tile38.go": {
+      "mode": "100644",
+      "blob": "2fa1b4b67df2050849bf7c66658f6153574da602"
+    },
+    "upstream/exporter/tile38_test.go": {
+      "mode": "100644",
+      "blob": "7d1e4dfb63188e43ae3d9175497dc5c2f0d76ac7"
+    },
+    "upstream/exporter/tls.go": {
+      "mode": "100644",
+      "blob": "fc59caa62e81f4d3b0b79e915ee4ababdbe6d0fe"
+    },
+    "upstream/exporter/tls_info.go": {
+      "mode": "100644",
+      "blob": "cbf659041a364bbe94ca6de5ae6596fd8980b4d7"
+    },
+    "upstream/exporter/tls_test.go": {
+      "mode": "100644",
+      "blob": "083b4bde9f64a164d8cd8b6d96d31ce496096b6b"
+    },
+    "upstream/exporter/valkey_info_test.go": {
+      "mode": "100644",
+      "blob": "a95c8bc6335a7959cb6cb5d7dfdef61250f97b83"
+    },
+    "upstream/go.mod": {
+      "mode": "100644",
+      "blob": "330b96ffbd28b6b00680a6ab4d22613c99792104"
+    },
+    "upstream/go.sum": {
+      "mode": "100644",
+      "blob": "fb4af0862b12e1e1f61fd9f3f7b23666cd6c6d4d"
+    },
+    "upstream/main.go": {
+      "mode": "100644",
+      "blob": "cd6c48978eba48f0a050b843651ee69897feab93"
+    },
+    "upstream/main_test.go": {
+      "mode": "100644",
+      "blob": "9010ace5fe0bee2b5a9646d8aab02382cf72175e"
+    },
+    "upstream/package-github-binaries.sh": {
+      "mode": "100755",
+      "blob": "619b0755f484d86ff753a9579ead26389359752d"
+    }
+  },
+  "frozen_prefixes": [
+    "upstream/"
+  ],
+  "authority_hashes": {},
+  "required_text": {},
+  "structured_files": {
+    "governance/interim-release-policy.json": {
+      "schema_version": 1,
+      "policy_kind": "source_merge",
+      "repository": "appolon1908/Codestra-Redis-Exporter",
+      "authorization_date": "2026-11-02",
+      "required_checks": [
+        {
+          "context": "frozen-vendor-documentation-source",
+          "integration_id": 15368,
+          "workflow": ".github/workflows/source-scope.yml"
+        }
+      ],
+      "replaces_contexts": [
+        "codestra-control-plane",
+        "codestra/control-plane"
+      ],
+      "preserve": [
+        "other_required_checks",
+        "review_requirements",
+        "ref_conditions",
+        "bypass_actors",
+        "enforcement",
+        "force_push_protection",
+        "deletion_protection",
+        "deployment_authority"
+      ],
+      "production_activation_authorized": false,
+      "note": "Only documentation additions outside the frozen baseline are validated. Every original vendor, config, lock and authority Git blob/mode remains immutable. This does not certify vendor code, runtime or vendor security and does not authorize deployment."
+    }
+  }
+}
